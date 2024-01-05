@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@color/background"
+    android:background="#EFEFEF"
     android:padding="16dp">
 
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_height="130dp"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
-        android:src="@drawable/pyi_logo" />
+        android:src="" />
 
     <TextView
         android:layout_width="77dp"
@@ -55,7 +55,6 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="13dp"
@@ -115,12 +114,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/yet"
             android:background="#EFEFEF"
             android:text="Sign Up"
             android:textColor="#5B8BCA"
-            android:textStyle="bold"
             android:textSize="16dp"
-            android:layout_toRightOf="@+id/yet" />
+            android:textStyle="bold" />
     </RelativeLayout>
 
 
